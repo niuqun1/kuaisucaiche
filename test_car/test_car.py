@@ -52,5 +52,5 @@ class Test_1:
         self.obj.click_baocun()
         sleep(7)
         self.obj.click_wode()
-        self.obj.slide(600, 1900, 458, 800, 2000)
+        self.obj.slide(458, 1900, 458, 800, 2000)
         self.obj.clcik_esc()
