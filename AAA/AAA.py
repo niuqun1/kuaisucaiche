@@ -18,7 +18,7 @@ class search(Base):
     def click_xj(self):
         self.click_element(AAA.XJ)
     def click_tar1(self):
-        self.click_tar(AAA.XJ,2000)
+        self.click_tar(AAA.XJ,1850)
     # 登陆账号
     def import_login(self,A="10000000156",B="uat.portal"):
         self.input_element(AAA.username,A)
@@ -32,9 +32,9 @@ class search(Base):
         md = self.search_elements(AAA.xzmd)
         md[0].click()
         self.click_element(AAA.okan)
-    def click_xj(self):
-            a = self.search_elements(AAA.mtxj)
-            a[0].click()
+    def click_xj2(self):
+        a = self.search_elements(AAA.mtxj)
+        a[0].click()
     # 点击拍照按钮
     def click_ok(self):
         self.click_element(AAA.vinkm)
@@ -84,7 +84,7 @@ class search(Base):
     def click_fanhu(self):
         sleep(2)
         a=self.search_elements(AAA.xhtjzp)
-        for i in range(0, 17):
+        for i in range(0, 16):
             a[i].click()
             sleep(0.5)
         # 选择车身颜色（红色）
@@ -135,5 +135,6 @@ class search(Base):
     def click_wode(self):
         self.click_element(AAA.fanhui)
         self.click_element(AAA.my)
+    def clcik_esc(self):
         self.click_element(AAA.esc)
 

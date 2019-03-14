@@ -17,7 +17,7 @@ class Test_1:
     def test_cjrk(self):
         self.obj.click_cjru()
         self.obj.click_md()
-        self.obj.click_xj()
+        self.obj.click_xj2()
         self.obj.click_ok()
         self.obj.click_fou()
     def test_click_03(self):
@@ -52,3 +52,5 @@ class Test_1:
         self.obj.click_baocun()
         sleep(7)
         self.obj.click_wode()
+        self.obj.slide(600, 1900, 458, 800, 2000)
+        self.obj.clcik_esc()
