@@ -132,3 +132,8 @@ class search(Base):
         self.click_element(AAA.baocun)
         self.click_element(AAA.shang)
 
+    def click_wode(self):
+        self.click_element(AAA.fanhui)
+        self.click_element(AAA.my)
+        self.click_element(AAA.esc)
+

@@ -51,3 +51,4 @@ class Test_1:
     def test_baocun(self):
         self.obj.click_baocun()
         sleep(7)
+        self.obj.click_wode()

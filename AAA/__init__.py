@@ -85,3 +85,8 @@ xhtjzp=(By.XPATH,"//android.widget.ImageView[@resource-id='com.kanche.mars:id/co
 wc=(By.ID,"com.kanche.mars:id/save_data")
 # 返回
 fanhui=(By.XPATH,"//android.widget.ImageButton[@content-desc='转到上一层级']")
+# 我的
+my=(By.XPATH,"//android.widget.TextView[@resource-id='com.kanche.mars:id/tv_tab' and @text='我的']")
+# 退出登录
+esc=(By.XPATH,"//android.widget.TextView[@resource-id='com.kanche.mars:id/tv_logout' and @text='退出']")
+# 登录页面
